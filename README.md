@@ -1,0 +1,4 @@
+Basics to run the java program in VS Code
+- Save the file name as "filename.java"
+- In the console , run "javac filename.java" which converts .java to .class
+- Then run the command "java filename"
