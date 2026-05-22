@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class grade{
+public class Grade{  //classname should be in caps
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -9,10 +9,11 @@ public class grade{
         System.out.print("Enter the marks gained by the student: ");
         int marks = sc.nextInt();
 
-        if(marks> 100){
+        if(marks> 100  || marks<0){
             System.out.print("Invalid marks");
+            return; //further checking is avoided
         }
-        
+
         if(marks>80 && marks<=100){
             System.out.print("Grade A");
         }
@@ -24,6 +25,7 @@ public class grade{
         else if(marks>25 && marks<=45){
             System.out.print("Grade C");
         }
+
 
         else{
             System.out.print("Failed the exam");
