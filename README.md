@@ -6,3 +6,4 @@ Basics to run the java program in VS Code
 
 Note:
 - Filename and className should be same and starts with capital letter
+- Not to push .class files to github because they are compiled files
