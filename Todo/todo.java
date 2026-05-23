@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-public class todo{
+public class Todo{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int choice;
